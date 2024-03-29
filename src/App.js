@@ -5,8 +5,7 @@ import Contador from "./components/contador.jsx";
 import { useState } from "react";
 
 function App() {
-
-  const [numDeClics, setNumClics] = useState(0)
+  const [numDeClics, setNumClics] = useState(0);
 
   const manejarClic = () => {
     setNumClics(numDeClics + 1);
@@ -19,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <div className="container-logo">
-        <img className="img-logo" src={logoFcc} alt="Logo" />
+        <h1>Counter With React</h1>
       </div>
       <div className="container-main">
         <Contador numeroDeClics={numDeClics} />

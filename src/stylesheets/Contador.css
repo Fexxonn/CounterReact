@@ -1,12 +1,25 @@
 .contador {
-    min-width: 300px;
-    height: 300px;
-    font-size: 160px;
-    padding: 25px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 8px solid white;
-    margin-bottom: 15px;
+  min-width: 300px;
+  height: 300px;
+  font-size: 160px;
+  padding: 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid white;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  animation: shadowRepeat 6s ease-in-out infinite;
+}
+@keyframes shadowRepeat {
+  0% {
+    box-shadow: 0.2pc 0.5pc 1.5pc 1.5pc rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  }
+  100% {
+    box-shadow: 0.2pc 0.5pc 1.5pc 1.5pc rgba(0, 0, 0, 0.2);
+  }
 }
