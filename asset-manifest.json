@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CounterReact/static/css/main.c88dc7cb.css",
+    "main.js": "/CounterReact/static/js/main.8947520b.js",
+    "static/media/FCC.png": "/CounterReact/static/media/FCC.8c4af804b23b6e5720b2.png",
+    "index.html": "/CounterReact/index.html",
+    "main.c88dc7cb.css.map": "/CounterReact/static/css/main.c88dc7cb.css.map",
+    "main.8947520b.js.map": "/CounterReact/static/js/main.8947520b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c88dc7cb.css",
+    "static/js/main.8947520b.js"
+  ]
+}
