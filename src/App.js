@@ -1,5 +1,4 @@
 import "./App.css";
-import logoFcc from "../src/img/FCC.png";
 import Boton from "./components/Boton.jsx";
 import Contador from "./components/contador.jsx";
 import { useState } from "react";
