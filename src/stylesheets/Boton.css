@@ -1,0 +1,21 @@
+button {
+  width: 150px;
+  height: clamp(30px, 7vmin, 50px);
+  font-weight: bold;
+  font-size: clamp(20px, 4vmin, 25px);
+  color: black;
+  border-radius: 10px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border: none;
+  border: 1px solid black;
+}
+button:hover {
+  background: blue;
+  transition: .2s;
+}
+
+
+.boton-clic {
+  background: grey;
+}

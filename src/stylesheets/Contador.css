@@ -1,0 +1,18 @@
+.contador {
+  
+  width: clamp(100px, 50vmin, 400px);
+  height: 200px;
+  font-size: calc(6rem - 2vw);
+  padding: 25px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  backdrop-filter: blur(50px);
+  animation: shadowRepeat 6s ease-in-out infinite;
+  transition: font-size 0.2s ease;
+
+}
